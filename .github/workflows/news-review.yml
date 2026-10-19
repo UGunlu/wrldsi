@@ -1,0 +1,40 @@
+name: Prepare news for editorial review
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prepare-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Test RSS parsing
+        run: python -m unittest discover -s scripts -p "test_*.py"
+
+      - name: Collect feed updates
+        run: python scripts/update_news.py
+
+      - name: Open or update editorial review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/news-editorial-review
+          delete-branch: true
+          commit-message: "chore: refresh news for editorial review"
+          title: "Review WRLDSI news updates"
+          body: |
+            This pull request contains recent items from the configured RSS sources.
+
+            Review titles, source links, publication dates, and source-provided summaries before merging. Merging publishes the reviewed items when the site is deployed.

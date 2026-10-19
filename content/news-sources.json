@@ -1,0 +1,28 @@
+[
+  {
+    "name": "OpenAI",
+    "url": "https://openai.com/news/rss.xml",
+    "language": "en"
+  },
+  {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "language": "en"
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "language": "en"
+  },
+  {
+    "name": "arXiv · Artificial Intelligence",
+    "url": "https://rss.arxiv.org/rss/cs.AI",
+    "language": "en",
+    "upgrade_http_hosts": ["arxiv.org"]
+  },
+  {
+    "name": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "language": "en"
+  }
+]
