@@ -57,7 +57,7 @@ def child_text(element, names):
 def clean_summary(value):
     parser = FeedTextParser()
     parser.feed(value)
-    text = re.sub(r"\s+", " ", " ".join(parser.parts)).strip()
+    text = re.sub(r"\s+", " ", "".join(parser.parts)).strip()
     if len(text) <= SUMMARY_LENGTH:
         return text
     shortened = text[: SUMMARY_LENGTH - 1].rsplit(" ", 1)[0].rstrip()

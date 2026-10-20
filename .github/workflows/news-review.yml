@@ -1,6 +1,13 @@
 name: Prepare news for editorial review
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/news-review.yml"
+      - "content/news-sources.json"
+      - "scripts/**"
+      - "articles.json"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:

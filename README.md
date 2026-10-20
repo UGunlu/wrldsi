@@ -12,7 +12,7 @@ Run `node server.js` (or `npm start`) and open http://localhost:3000. Set the `P
 
 The homepage reads reviewed items from `articles.json`. The configured publisher and research feeds are listed in `content/news-sources.json`; a daily GitHub Actions workflow collects their latest RSS items and opens or updates a pull request for editorial review. The workflow does not publish directly. Review source links and publisher-provided summaries, then merge approved changes.
 
-The workflow uses only GitHub-hosted runners; it does not run a news collector on the WRLDSI server. To activate it, put the project in a GitHub repository with Actions enabled and allow GitHub Actions to create pull requests. The schedule runs daily at 03:17 UTC, and it can also be started manually from the Actions tab. New items appear on the live site after approval and deployment with `.\deploy.ps1 -Target test` followed by `.\deploy.ps1 -Target prod`.
+The workflow uses only GitHub-hosted runners; it does not run a news collector on the WRLDSI server. To activate it, put the project in a GitHub repository with Actions enabled and allow GitHub Actions to create pull requests. It runs daily at 03:17 UTC, can be started manually from the Actions tab, and also runs when the workflow, source list, updater, or article data changes on `main`. New items appear on the live site after approval and deployment with `.\deploy.ps1 -Target test` followed by `.\deploy.ps1 -Target prod`.
 
 Summaries initially come from each publisher's RSS feed, not from an AI model. Editorial `summary` fields added during review are preserved by later updates. Check each source's reuse terms before publishing excerpts.
 
