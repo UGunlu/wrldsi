@@ -1,6 +1,8 @@
 import unittest
+import xml.etree.ElementTree as ET
+from unittest.mock import patch
 
-from update_news import merge_articles, parse_feed
+from update_news import collect_feeds, merge_articles, parse_feed
 
 
 class ParseFeedTests(unittest.TestCase):
@@ -99,6 +101,25 @@ class ParseFeedTests(unittest.TestCase):
 
         self.assertEqual(skipped, 0)
         self.assertEqual(articles[0]["url"], "https://arxiv.org/abs/1234.5678")
+
+    def test_partial_feed_failures_keep_healthy_sources(self):
+        sources = [
+            {"name": "Working", "url": "https://working.example/feed"},
+            {"name": "Unavailable", "url": "https://unavailable.example/feed"},
+        ]
+        article = {"id": "one", "publishedAt": "2026-10-19T10:00:00Z"}
+        with patch("update_news.fetch_feed", side_effect=[([article], 0), ET.ParseError("invalid XML")]):
+            incoming, statuses = collect_feeds(sources)
+
+        self.assertEqual(incoming, [article])
+        self.assertIsNone(statuses[0]["error"])
+        self.assertEqual(statuses[1]["error"], "invalid XML")
+
+    def test_all_feed_failures_prevent_an_empty_update(self):
+        sources = [{"name": "Unavailable", "url": "https://unavailable.example/feed"}]
+        with patch("update_news.fetch_feed", side_effect=ET.ParseError("invalid XML")):
+            with self.assertRaisesRegex(RuntimeError, "All news feeds failed"):
+                collect_feeds(sources)
 
 
 if __name__ == "__main__":

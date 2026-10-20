@@ -1,6 +1,7 @@
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 import tempfile
@@ -221,30 +222,63 @@ def write_document(output_path, articles):
             temporary_path.unlink()
 
 
+def collect_feeds(sources):
+    incoming = []
+    statuses = []
+    successes = 0
+
+    for source in sources:
+        name = source.get("name", source.get("url", "unknown source"))
+        try:
+            records, skipped = fetch_feed(source)
+            records.sort(key=article_sort_key, reverse=True)
+            incoming.extend(records[:ITEMS_PER_SOURCE])
+            statuses.append({"source": name, "count": len(records), "skipped": skipped, "error": None})
+            successes += 1
+            print(f"{name}: fetched {len(records)} articles; skipped {skipped} invalid entries")
+        except (OSError, ValueError, ET.ParseError, urllib.error.URLError) as error:
+            message = f"{name}: {error}"
+            statuses.append({"source": name, "count": 0, "skipped": 0, "error": str(error)})
+            print(f"Warning: {message}", file=sys.stderr)
+
+    if successes == 0:
+        raise RuntimeError("All news feeds failed; no output was written")
+    return incoming, statuses
+
+
+def write_step_summary(statuses, article_count):
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not summary_path:
+        return
+
+    lines = [
+        "## News feed update",
+        f"Stored articles: {article_count}",
+        "",
+        "| Source | Result |",
+        "| --- | --- |",
+    ]
+    for status in statuses:
+        result = status["error"] or f"{status['count']} items; {status['skipped']} skipped"
+        source = status["source"].replace("|", "\\|")
+        result = result.replace("|", "\\|")
+        lines.append(f"| {source} | {result} |")
+    with open(summary_path, "a", encoding="utf-8") as summary_file:
+        summary_file.write("\n".join(lines) + "\n")
+
+
 def update(output_path):
     sources = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
     if not isinstance(sources, list) or not sources:
         raise ValueError(f"No news feeds are configured in {SOURCES_FILE}")
 
-    incoming = []
-    failures = []
-    for source in sources:
-        try:
-            records, skipped = fetch_feed(source)
-            records.sort(key=article_sort_key, reverse=True)
-            incoming.extend(records[:ITEMS_PER_SOURCE])
-            print(f"{source['name']}: fetched {len(records)} articles; skipped {skipped} invalid entries")
-        except (OSError, ValueError, ET.ParseError, urllib.error.URLError) as error:
-            failures.append(f"{source.get('name', source.get('url', 'unknown source'))}: {error}")
-
-    if failures:
-        raise RuntimeError("News update failed; no output was written:\n" + "\n".join(failures))
-
+    incoming, statuses = collect_feeds(sources)
     unique_incoming = {}
     for article in incoming:
         unique_incoming.setdefault(article["id"], article)
     articles = merge_articles(list(unique_incoming.values()), read_existing_articles(output_path))
     write_document(output_path, articles)
+    write_step_summary(statuses, len(articles))
     print(f"Wrote {len(articles)} articles to {output_path}")
 
 
