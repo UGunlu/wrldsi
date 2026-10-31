@@ -1,6 +1,321 @@
 {
   "articles": [
     {
+      "id": "2e338f4975c6ee04",
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "url": "https://arxiv.org/abs/2610.37720",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet…"
+    },
+    {
+      "id": "17c024935e19a141",
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "url": "https://arxiv.org/abs/2610.37731",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and…"
+    },
+    {
+      "id": "3cf54c91cb07b425",
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take…"
+    },
+    {
+      "id": "4131f32dcc0451ab",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We…"
+    },
+    {
+      "id": "0b73660e31921f56",
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "url": "https://arxiv.org/abs/2610.37786",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified…"
+    },
+    {
+      "id": "a1243665260df877",
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2610.37809",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can be wrong as well: it…"
+    },
+    {
+      "id": "13238a09a124fa80",
+      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+      "url": "https://arxiv.org/abs/2610.37830",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37830v1 Announce Type: new Abstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters most for smart contracts, the programs behind Web3 applications that move…"
+    },
+    {
+      "id": "fa47d733c17cb7ef",
+      "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+      "url": "https://arxiv.org/abs/2610.37849",
+      "source": "arXiv · Artificial Intelligence",
+      "publishedAt": "2026-10-31T04:00:00Z",
+      "language": "en",
+      "sourceSummary": "arXiv:2610.37849v1 Announce Type: new Abstract: AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them. We propose a behavioural test: a partner that uses a code reacts to the exact…"
+    },
+    {
+      "id": "037154e824aaff25",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-30T17:57:24Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "84abd1857de5dfd9",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-30T09:30:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
+    },
+    {
+      "id": "a86d24c59c826150",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
+    },
+    {
+      "id": "574dbaf7fc8731e4",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-30T00:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+    },
+    {
+      "id": "9349f418e7bc7ab4",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-29T17:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+    },
+    {
+      "id": "e508e29ae812fe58",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-29T13:37:07Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "32d69d7e6fd51a11",
+      "title": "We urgently need to monitor AI agents’ actions in real time",
+      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-29T10:11:12Z",
+      "language": "en",
+      "sourceSummary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed…"
+    },
+    {
+      "id": "0f01adb2acab0a67",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-29T09:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+    },
+    {
+      "id": "d948735545c20cf3",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-29T07:00:00Z",
+      "language": "en",
+      "sourceSummary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
+    },
+    {
+      "id": "85f94c0fe8f02a81",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "language": "en",
+      "sourceSummary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption."
+    },
+    {
+      "id": "718617961cab3abc",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "b6b30743068c2627",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "6394645bd5105adc",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "9957645d2f759c41",
+      "title": "Creating AI value with enterprise context",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-28T20:32:02Z",
+      "language": "en",
+      "sourceSummary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when…"
+    },
+    {
+      "id": "e8e0cb1d0e685ced",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "a395c7da350b5086",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-28T13:15:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
+    },
+    {
+      "id": "e59a3c9fb64c2656",
+      "title": "Pairing industrial AI autonomy and human control",
+      "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-28T12:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "1c5b51464767c2ad",
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-27T17:16:52Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "1d6c5c59e46e52b9",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-27T16:12:42Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "393575ee7d83ff0a",
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-10-27T16:01:38Z",
+      "language": "en",
+      "sourceSummary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation."
+    },
+    {
+      "id": "5e2d9e6f0fc03de4",
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-27T11:19:18Z",
+      "language": "en",
+      "sourceSummary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a…"
+    },
+    {
+      "id": "a7f46c4aaa0095af",
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-26T17:45:43Z",
+      "language": "en",
+      "sourceSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks)…"
+    },
+    {
+      "id": "82e4e1c54febaa1e",
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-26T09:01:00Z",
+      "language": "en",
+      "sourceSummary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But…"
+    },
+    {
+      "id": "2b3f616d26d343fe",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "c8127c2e57511fe8",
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-22T21:17:29Z",
+      "language": "en",
+      "sourceSummary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning,…"
+    },
+    {
+      "id": "285861fa05fad723",
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-22T18:48:04Z",
+      "language": "en",
+      "sourceSummary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly…"
+    },
+    {
+      "id": "301925b8adfcebab",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-10-22T14:30:24Z",
+      "language": "en",
+      "sourceSummary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types."
+    },
+    {
       "id": "f1d2125c10ab9bae",
       "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
       "url": "https://arxiv.org/abs/2610.23866",
