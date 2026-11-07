@@ -1,6 +1,222 @@
 {
   "articles": [
     {
+      "id": "5a90caffb2c87d2e",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-06T14:00:48Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "1ca94b52e709b2f5",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-06T10:00:00Z",
+      "language": "en",
+      "sourceSummary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately…"
+    },
+    {
+      "id": "a0a44ed09dc9a108",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-06T08:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
+    },
+    {
+      "id": "5f721228af3682c2",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
+    },
+    {
+      "id": "13e4c95dcbaa6d34",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "bbd492caba72ca54",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-05T20:00:00Z",
+      "language": "en",
+      "sourceSummary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done."
+    },
+    {
+      "id": "f25b9201ad6bdcc6",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-05T19:35:16Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "616c68177b707eae",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "language": "en",
+      "sourceSummary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
+    },
+    {
+      "id": "14e90e72d3401ddf",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-05T09:00:00Z",
+      "language": "en",
+      "sourceSummary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
+    },
+    {
+      "id": "db9792e954d44701",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-05T08:00:00Z",
+      "language": "en",
+      "sourceSummary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates."
+    },
+    {
+      "id": "25fa4dd18ec78a48",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-05T02:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development."
+    },
+    {
+      "id": "2d1d326185a62641",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-05T00:45:15Z",
+      "language": "en",
+      "sourceSummary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup."
+    },
+    {
+      "id": "c65c7708e93995ca",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "988e33cedf7304f8",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-04T18:50:55Z",
+      "language": "en",
+      "sourceSummary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the…"
+    },
+    {
+      "id": "32d4e91d243ef07f",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-04T17:50:10Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "6c941b016a2f37cc",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-04T13:00:00Z",
+      "language": "en",
+      "sourceSummary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal…"
+    },
+    {
+      "id": "4d3938441f216409",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-03T16:35:36Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "e6e258092e928f0d",
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-03T10:43:41Z",
+      "language": "en",
+      "sourceSummary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure,…"
+    },
+    {
+      "id": "b7492bd5cea1d25b",
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-03T04:18:47Z",
+      "language": "en",
+      "sourceSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to…"
+    },
+    {
+      "id": "63945bc794809749",
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "a6f54d325d31634f",
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "b475b7dcc2276d63",
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-02T17:00:00Z",
+      "language": "en",
+      "sourceSummary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is…"
+    },
+    {
+      "id": "8d847b3ebc262e19",
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-02T13:10:32Z",
+      "language": "en",
+      "sourceSummary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes,…"
+    },
+    {
+      "id": "a09e48d0b66bcc5c",
+      "title": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-02T09:35:19Z",
+      "language": "en",
+      "sourceSummary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be…"
+    },
+    {
       "id": "f1d2125c10ab9bae",
       "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
       "url": "https://arxiv.org/abs/2610.23866",
