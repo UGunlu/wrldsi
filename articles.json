@@ -1,6 +1,294 @@
 {
   "articles": [
     {
+      "id": "cdc8eef67bc55a0d",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-13T18:00:39Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "96c7f67bef86f831",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-13T17:02:35Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "7d4d71d056da0286",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-13T15:00:00Z",
+      "language": "en",
+      "sourceSummary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+    },
+    {
+      "id": "6841e619fcd7e8d9",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-13T14:05:22Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "a99dfdd20d85acbb",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-13T08:00:00Z",
+      "language": "en",
+      "sourceSummary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment."
+    },
+    {
+      "id": "eeb3027690b25fcf",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-12T20:16:24Z",
+      "language": "en",
+      "sourceSummary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group…"
+    },
+    {
+      "id": "67672a694e389b29",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-12T20:00:00Z",
+      "language": "en",
+      "sourceSummary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact."
+    },
+    {
+      "id": "84ec87286cb35a64",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-12T19:07:35Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "c7a410ad3b862809",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-12T18:00:50Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "b9840fd67063a36a",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-12T12:00:00Z",
+      "language": "en",
+      "sourceSummary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work."
+    },
+    {
+      "id": "4922ca6fb0dd9299",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-12T09:30:00Z",
+      "language": "en",
+      "sourceSummary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth."
+    },
+    {
+      "id": "d7c1da8cb7dc41da",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "language": "en",
+      "sourceSummary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people."
+    },
+    {
+      "id": "65b96c238445cded",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "language": "en",
+      "sourceSummary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+    },
+    {
+      "id": "cbda9238a3684b28",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "833534b672b8daa3",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-11T15:00:15Z",
+      "language": "en",
+      "sourceSummary": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
+    },
+    {
+      "id": "ac94b61a25ade5ed",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-11T08:00:00Z",
+      "language": "en",
+      "sourceSummary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers."
+    },
+    {
+      "id": "19b4fcb1faac9c9b",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-11T05:01:16Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "11568aa8dfcf9a3c",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "6d8eb3bcd497222d",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-10T16:03:47Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "f321c904268bcef2",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-10T12:02:28Z",
+      "language": "en",
+      "sourceSummary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption."
+    },
+    {
+      "id": "d0f9bf46fa9dba7c",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-10T11:13:04Z",
+      "language": "en",
+      "sourceSummary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly."
+    },
+    {
+      "id": "cb93d68b445c05b0",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "Hugging Face",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "8827aad4505e69ef",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-09T19:51:47Z",
+      "language": "en",
+      "sourceSummary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety"
+    },
+    {
+      "id": "a0dbf5e971943802",
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-09T19:35:33Z",
+      "language": "en",
+      "sourceSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s…"
+    },
+    {
+      "id": "847f70281bec59e8",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-09T17:05:43Z",
+      "language": "en",
+      "sourceSummary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI…"
+    },
+    {
+      "id": "f2fd344bf7be2cb6",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-09T13:00:00Z",
+      "language": "en",
+      "sourceSummary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For…"
+    },
+    {
+      "id": "1ca94b52e709b2f5",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-06T10:00:00Z",
+      "language": "en",
+      "sourceSummary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately…"
+    },
+    {
+      "id": "f09d7876c1e95fca",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-05T17:05:16Z",
+      "language": "en",
+      "sourceSummary": ""
+    },
+    {
+      "id": "988e33cedf7304f8",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-04T18:50:55Z",
+      "language": "en",
+      "sourceSummary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the…"
+    },
+    {
+      "id": "6c941b016a2f37cc",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-04T13:00:00Z",
+      "language": "en",
+      "sourceSummary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal…"
+    },
+    {
+      "id": "da38bc697163569b",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "publishedAt": "2026-11-03T17:01:49Z",
+      "language": "en",
+      "sourceSummary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
+    },
+    {
+      "id": "e6e258092e928f0d",
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-03T10:43:41Z",
+      "language": "en",
+      "sourceSummary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure,…"
+    },
+    {
       "id": "f1d2125c10ab9bae",
       "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
       "url": "https://arxiv.org/abs/2610.23866",
